@@ -379,6 +379,7 @@
   .card:hover{background:rgba(79,140,255,.035);border-color:#344663;box-shadow:0 18px 44px rgba(0,0,0,.20)}
   .card::before{content:"";position:absolute;left:0;top:0;width:2px;height:0;background:var(--blue);box-shadow:0 0 12px rgba(79,140,255,.55);transition:height var(--slow) var(--ease-out)}
   .card:hover::before{height:100%}
+  .card.featured{grid-column:1/-1;min-height:154px}
   .card h3{margin:0 0 12px;font-size:1.08rem;letter-spacing:-.02em;transition:transform var(--mid) var(--ease-out),color var(--mid) ease}
   .card:hover h3{transform:translateX(3px);color:#fff}
   .card p{margin:0;max-width:720px;color:#aeb8c5;line-height:1.62;font-size:.9rem}
@@ -658,7 +659,7 @@
       <div class="skill">JavaScript</div><div class="skill">HTML5</div><div class="skill">CSS</div><div class="skill">Browser APIs</div>
       <div class="skill">UI / interaction design</div><div class="skill">Firebase / Firestore</div><div class="skill">REST APIs</div><div class="skill">AI model workflows</div>
       <div class="skill">Prompt / agent architecture</div><div class="skill">Debugging</div><div class="skill">Performance optimization</div><div class="skill">Rapid product prototyping</div>
-      <div class="skill">Technical research</div>
+      <div class="skill">Technical research</div><div class="skill">Cybersecurity / responsible disclosure</div>
     </div>
   </section>
 
@@ -672,6 +673,7 @@
       <article class="card"><span class="tag">AI systems</span><h3>Leviathan / FlowAI</h3><p>Experimental local-and-cloud AI workspace exploring multi-chat execution, memory, model routing, critique loops, swarm-style workflows, and resilient fallbacks.</p></article>
       <article class="card"><span class="tag">Education</span><h3>JavaScript Relearn Platform</h3><p>Duolingo-style browser course with an AI helper, syntax-aware editor behavior, adaptive refreshers, progress persistence, and beginner-to-intermediate sequencing.</p></article>
       <article class="card"><span class="tag">Simulation</span><h3>Interactive browser worlds</h3><p>Prototypes spanning game systems, 3D environments, physics-inspired sandboxes, chemistry concepts, visualization tools, and simulation-heavy UI experiments.</p></article>
+      <article class="card featured"><span class="tag">Cybersecurity · 2026</span><h3>Responsible Security Disclosure — Anonymous School</h3><p>Identified and responsibly demonstrated unauthorized access to an internal Google Groups board, then worked with the school’s IT team to investigate and resolve a year-long privacy flaw. Over time, the issue had exposed hundreds of sensitive family records per year, including parent email addresses, phone numbers, names, exact home addresses, child-related information, and other personal data. The institution is intentionally kept anonymous.</p></article>
     </div>
   </section>
 
